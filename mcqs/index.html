@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+
+        <h1>QUIZ</h1>
+
+            <div id="question"></div>
+
+            <div id="choices">
+            </div>
+            <input class="button" type="button" value = "start" id = "game">
+
+            <input class="button" type="button" value = "next" id = "next" style="display: none">
+
+            <input class="button" type="button" value = "submit" id = "submit" style="display: none">
+
+            
+        </div>
+
+        <div id="scoreContainer"></div>
+        <div class="progress" style="display: none" id = "progress">
+            <div class="progress-bar" role="progressbar" id = "bar" style="width: 25%; " aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+
+    
+    <script src = "questions.js"></script>
+
+</body>
+</html>

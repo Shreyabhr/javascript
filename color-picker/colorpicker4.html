@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <style>
+    
+
+        </style>
+    </head>
+    <body>
+        <h1>This is color picker</h1>
+        <label for="html">Input color</label>
+        <form>
+            <select id = "myList" onchange="myFunction()">
+            <option> #FF5733  </option>
+            <option> #33FF69  </option>
+            <option> #F6FF33  </option>
+            <option> #FF33F8  </option>
+            </select>
+        </form>
+        <script>
+            function myFunction() {
+                var mylist = document.getElementById("myList");
+                document.body.style.backgroundColor = mylist.options[mylist.selectedIndex].text;
+  
+            }
+            
+
+        </script>
+        
+    </body>
+</html>

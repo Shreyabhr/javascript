@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+            div {
+                width: 320px;
+                padding: 10px;
+                border: 1px solid gray;
+                margin: 0;
+                background-color: blueviolet;
+            }
+        </style>
+    </head>
+    <body>
+        <div id ="color">
+            <h2 id="demo">Get element by id</h2>
+            
+
+        </div>
+        <button onclick="myFunction()">Change text</button>
+        <button onclick="chngeFunction()">Change color</button>
+        
+        <script>
+            
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "Hello World";
+            }
+
+            function chngeFunction() {
+                document.getElementById("color").style.backgroundColor = "lightpink";
+            }
+
+
+
+
+        </script>
+    </body>
+</html>

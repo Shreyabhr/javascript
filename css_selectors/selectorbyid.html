@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <style>
+            div {
+                width: 320px;
+                height:320px;
+                padding: 10px;
+                border: 1px solid gray;
+                margin: 0;
+                background-color: rgb(226, 64, 43);
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="demo">Selector by Id</h2>
+        <div id ="color">
+
+        </div>
+        <button onclick="myFunction()">Change color</button>
+        <script>
+            
+            function myFunction() {
+            document.querySelector("#color").style.backgroundColor = "green";
+            }
+
+
+        </script>
+    </body>
+</html>
